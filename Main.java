@@ -106,7 +106,7 @@ public class Main {
     }
     private static void showLottoList(){
         //출력
-        for(int i=0;i<idxCurrent;i++){
+        for(int i=0;i<=idxCurrent;i++){
             System.out.print((i+1)+"번째 로또번호 :");
             for(int j=0;j<6;j++){
                 System.out.print(arrayLotto[i][j]+"\t");
